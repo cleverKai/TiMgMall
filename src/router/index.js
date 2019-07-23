@@ -50,5 +50,5 @@ export default new Router({
       name:'user',
       component:user
     }
-  ]
+  ],
 })
