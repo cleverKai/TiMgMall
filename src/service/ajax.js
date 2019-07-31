@@ -16,13 +16,18 @@ axios.interceptors.response.use(function (response)
   let responseStatus = response.data.status;
   if(responseStatus===10){
     window.location.href='/#/login'
-  }else if(responseStatus===1){
-    if(response.request.responseURL.indexOf('get_user_info.do')!=-1){
+  }else if(responseStatus===1) {
+    if (response.request.responseURL.indexOf('get_user_info.do')!= -1) {
+      //检查用户名返回
       return response
-    }else if(responseStatus===0) {
-      return response
+    } else {
+      alert(response.data.msg);
+      return
     }
-  }})
+  }else if(responseStatus===0){
+    return response
+  }
+})
 
 //axios请求封装
 export default function http(url='',data={},type='POST'){
