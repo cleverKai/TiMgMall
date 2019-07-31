@@ -8,7 +8,10 @@
           <i class="iconfont icon-search"></i>
           <router-link tag="span" class="search-title" to="./search">iphone降价啦</router-link>
         </div>
-         <router-link tag="span" to="./login">登录</router-link>
+         <router-link tag="span" to="./login" v-if="!isLogin">登录</router-link>
+         <router-link tag="span" to="./user" v-else>
+           <i class="iconfont icon-people"></i>
+         </router-link>
       </header>
       <div class="swiper-container">
         <div class="swiper-wrapper">
@@ -16,63 +19,62 @@
           <div class="swiper-slide"><img src="./imgs/rowing/ss2.jpg" alt="" width="100%"></div>
           <div class="swiper-slide"><img src="./imgs/rowing/ss3.jpg" alt="" width="100%"></div>
           <div class="swiper-slide"><img src="./imgs/rowing/ss4.jpg" alt="" width="100%"></div>
+          <div class="swiper-slide" ><img style="height: 192.5px" src="./imgs/rowing/ss5.jpg" alt="" width="100%" ></div>
+          <div class="swiper-slide" ><img style="height: 192.5px;" src="./imgs/rowing/ss6.jpg" alt="" width="100%" ></div>
+          <div class="swiper-slide" ><img style="height: 192.5px;" src="./imgs/rowing/ss7.jpg" alt="" width="100%" ></div>
         </div>
-
         <div class="swiper-pagination"></div>
       </div>
-
-
 
 
       <div class="home-nav">
           <div class="home-nav-content">
             <div class="nav-content-item">
               <img src="./imgs/nav/nav_icon01.png" alt="">
-              <span>超市</span>
+              <span>钛镁电器</span>
             </div>
             <div class="nav-content-item">
               <img src="./imgs/nav/nav_icon02.png" alt="">
-              <span>海鲜</span>
+              <span>手机电脑</span>
             </div>
 
             <div class="nav-content-item">
               <img src="./imgs/nav/nav_icon03.png" alt="">
-              <span>衣服</span>
+              <span>镁店拼团</span>
             </div>
-
             <div class="nav-content-item">
               <img src="./imgs/nav/nav_icon04.png" alt="">
-              <span>生鲜</span>
+              <span>钛镁家装</span>
             </div>
 
             <div class="nav-content-item">
               <img src="./imgs/nav/nav_icon05.png" alt="">
-              <span>物流</span>
+              <span>钛镁管家</span>
             </div>
 
             <div class="nav-content-item">
               <img src="./imgs/nav/nav_icon06.png" alt="">
-              <span>超市</span>
-            </div>
-
-            <div class="nav-content-item">
-              <img src="./imgs/nav/nav_icon07.png" alt="">
-              <span>超市</span>
+              <span>钛镁超市</span>
             </div>
 
             <div class="nav-content-item">
               <img src="./imgs/nav/nav_icon08.png" alt="">
-              <span>超市</span>
+              <span>充值服务</span>
             </div>
 
             <div class="nav-content-item">
               <img src="./imgs/nav/nav_icon09.png" alt="">
-              <span>超市</span>
+              <span>领镁豆</span>
             </div>
 
             <div class="nav-content-item">
               <img src="./imgs/nav/nav_icon10.png" alt="">
-              <span>超市</span>
+              <span>分期购</span>
+            </div>
+
+            <div class="nav-content-item">
+              <img src="./imgs/nav/nav_icon07.png" alt="">
+              <span>我的</span>
             </div>
           </div>
         </div>
@@ -125,8 +127,6 @@
                    <img src="./imgs/floor_pros/f10.jpg" alt="">
                  </div>
                </div>
-
-
                <div class="floor-category">
                  <p>经典手表</p>
                  <p>为爱倾注时间</p>
@@ -147,18 +147,20 @@
  import navBar from './../../components/navBar'
  import Swiper from 'swiper'
  import 'swiper/dist/css/swiper.min.css'
- 
-
-
-export default {
+ import {checkLogin} from "../../service/getData";
+ export default {
      name: "home",
     data(){
         return{
-         
+          isLogin:false,
           headerActive: false,
         }
       },
-     
+   beforeCreate(){
+       checkLogin().then((res)=>{
+         res.status==1? this.isLogin = false:this.isLogin=true
+       })
+   },
      components:{
        navBar
      },
@@ -206,8 +208,11 @@ export default {
       &.active{
         background: red;
       }
-      .icon-fenlei{
-        font-size: 50px;
+      .icon-menu{
+        font-size: 0.6rem;
+      }
+      .icon-people{
+        font-size: 0.6rem;
       }
       .header-search{
         display: flex;
@@ -237,6 +242,9 @@ export default {
       }
       
     }
+    .swiper-container{
+      height: 350px;
+    }
      /***************首页导航菜单**************/
     .home-nav-content{
       background-color: #fff;
@@ -251,7 +259,7 @@ export default {
         width: 20%;
         text-align: center;
         img {
-          width: 80px;
+          width: 120px;
           height: 80px;
           margin: 26px auto 16px auto;
         }

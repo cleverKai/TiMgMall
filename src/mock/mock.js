@@ -233,27 +233,27 @@ let categoryData = {
                     productList: [
                         {
                             title: '手机',
-                            imgUrl: '//img10.360buyimg.com/focus/s140x140_jfs/t11503/241/2246064496/4783/cea2850e/5a169216N0701c7f1.jpg'
+                            imgUrl: 'https://img12.360buyimg.com/n7/jfs/t30031/152/1332312785/300863/cdf3a03d/5cdd233eN69626d85.jpg'
                         },
                         {
                             title: '全面屏手机',
-                            imgUrl: '//img30.360buyimg.com/focus/s140x140_jfs/t18955/187/1309277884/11517/fe100782/5ac48d27N3f5bb821.jpg'
+                            imgUrl: 'https://img11.360buyimg.com/n7/jfs/t1/42583/20/7497/163984/5d11ec8bEf59466f6/e1ee156f444b6aef.jpg'
                         },
                         {
                             title: '游戏手机',
-                            imgUrl: '//img11.360buyimg.com/focus/s140x140_jfs/t11470/45/2362968077/2689/fb36d9a0/5a169238Nc8f0882b.jpg'
+                            imgUrl: 'https://img13.360buyimg.com/n7/jfs/t1/76256/19/2177/295569/5d0832c7Ea425c7bd/481d8ee23d9b1d54.jpg'
                         },
                         {
                             title: '拍照手机',
-                            imgUrl: '//img20.360buyimg.com/focus/s140x140_jfs/t12022/66/917351804/2257/7ddc58e5/5a169232Ndf76f53c.jpg'
+                            imgUrl: 'https://img12.360buyimg.com/n7/jfs/t1/77035/16/4671/178366/5d2d4abbE93a37bd6/b52328c8d0750623.jpg'
                         },
                         {
                             title: '老年机',
-                            imgUrl: '//img12.360buyimg.com/focus/s140x140_jfs/t11461/339/2354953633/8254/8c8c50d3/5a169217N5d1b842e.jpg'
+                            imgUrl: 'https://img10.360buyimg.com/n7/jfs/t1/39578/14/12218/359732/5d3578cbEdf6fdb06/164407d41a000a04.jpg'
                         },
                         {
                             title: '女性手机',
-                            imgUrl: '//img12.360buyimg.com/focus/s140x140_jfs/t15790/6/2311892256/2742/5ed77924/5a9fa728Nbff29ad2.jpg'
+                            imgUrl: 'https://img11.360buyimg.com/n7/jfs/t1/22478/2/2207/433959/5c1a28dcE9fb458db/61768e6d86aa7579.jpg'
                         }
                     ]
                 },
@@ -262,27 +262,27 @@ let categoryData = {
                     productList: [
                         {
                             title: '数据线',
-                            imgUrl: '//img12.360buyimg.com/focus/s140x140_jfs/t18055/312/1342501458/9462/4699ed8a/5ac48672N11cf61fe.jpg'
+                            imgUrl: 'https://img10.360buyimg.com/n7/jfs/t1/44776/17/2893/140455/5d0bb256E691a9cf9/5f3f12d63105cfa4.jpg'
                         },
                         {
                             title: '手机壳',
-                            imgUrl: '//img30.360buyimg.com/focus/s140x140_jfs/t18502/160/1284774717/9251/feb8a496/5ac4878cN658cbb07.jpg'
+                            imgUrl: 'https://img11.360buyimg.com/n7/jfs/t1/11028/8/7868/186915/5c658607E622438c7/ee734871e3d65416.jpg'
                         },
                         {
                             title: '充电宝',
-                            imgUrl: '//img30.360buyimg.com/focus/s140x140_jfs/t19537/23/1276961949/9676/f4b5be0d/5ac48791Nb224f939.jpg'
+                            imgUrl: 'https://img11.360buyimg.com/n7/jfs/t1/52508/34/1641/148940/5cf52f40E94c1f4a0/4e82851ca6e01d60.jpg'
                         },
                         {
                             title: '手机贴膜',
-                            imgUrl: '//img11.360buyimg.com/focus/s140x140_jfs/t17548/288/1331085893/6458/52545456/5ac486c6N0c8a93dc.jpg'
+                            imgUrl: 'https://img14.360buyimg.com/n7/jfs/t1/33848/39/1441/248896/5ca5f3a9E08a4d7aa/65d268b3b517bdde.jpg'
                         },
                         {
                             title: '耳机',
-                            imgUrl: '//img10.360buyimg.com/focus/s140x140_jfs/t17284/353/1280266808/3696/32c00915/5ac486ccN2d8031c1.jpg'
+                            imgUrl: 'https://img12.360buyimg.com/n7/jfs/t1/67326/18/1201/66483/5cf71e87E8db47be7/4db71444dbc65619.jpg'
                         },
                         {
                             title: '充电器',
-                            imgUrl: '//img11.360buyimg.com/focus/s140x140_jfs/t16774/124/1318736793/3884/cb658723/5ac4874fN6bc007b0.jpg'
+                            imgUrl: 'https://img12.360buyimg.com/n7/jfs/t27808/299/528752797/209581/8c55490e/5bb091c9Nd9da05fa.jpg'
                         }
                     ]
                 },
@@ -291,19 +291,19 @@ let categoryData = {
                     productList: [
                         {
                             title: '单反相机',
-                            imgUrl: '//img14.360buyimg.com/focus/s140x140_jfs/t13765/295/926307178/7966/3228af24/5a1679f2Nc2f659b6.jpg'
+                            imgUrl: 'https://img10.360buyimg.com/n7/jfs/t4189/46/2611634685/302786/cad907b5/58d49057Nd71df4ec.jpg'
                         },
                         {
                             title: '数码相机',
-                            imgUrl: '//img20.360buyimg.com/focus/s140x140_jfs/t12814/251/897168610/8107/60a873f/5a1679caNada7f827.jpg'
+                            imgUrl: 'https://img12.360buyimg.com/n7/jfs/t1/19207/9/3735/138591/5c4838d8E2a7e7052/845bddb79414fa28.jpg'
                         },
                         {
                             title: '镜头',
-                            imgUrl: '//img30.360buyimg.com/focus/s140x140_jfs/t12154/164/880046972/2880/86b45b51/5a1679b9N42a5f8e5.jpg'
+                            imgUrl: 'https://img13.360buyimg.com/n7/jfs/t1/44524/7/2185/204209/5cf653e8Eb551f5a3/dbf3ef1c58b66c17.jpg'
                         },
                         {
                             title: '户外器材',
-                            imgUrl: '//img10.360buyimg.com/focus/s140x140_jfs/t12586/176/939117172/2550/d16b4b6c/5a1679c3N67e2b3f1.jpg'
+                            imgUrl: 'https://img13.360buyimg.com/n7/jfs/t14704/338/2456915719/116066/e74f6347/5a9e24a8Naaf28a3e.jpg'
                         }
                     ]
                 },
@@ -320,27 +320,27 @@ let categoryData = {
                     productList: [
                         {
                             title: '轻薄本',
-                            imgUrl: '//img13.360buyimg.com/focus/s140x140_jfs/t11071/195/2462134264/9117/cd0688bf/5a17ba79N18b9f3d4.png'
+                            imgUrl: 'https://img10.360buyimg.com/n7/jfs/t1/28529/28/14095/308403/5ca5c566E256eed12/42aa00e5b7798ad9.jpg'
                         },
                         {
                             title: '游戏本',
-                            imgUrl: '//img30.360buyimg.com/focus/s140x140_jfs/t11155/36/2330310765/10690/eb6754c3/5a17ba96N49561fea.png'
+                            imgUrl: 'https://img11.360buyimg.com/n7/jfs/t1/41335/24/4703/247425/5cd54739E813d1d35/c733e6df8e934b55.jpg'
                         },
                         {
                             title: '机械键盘',
-                            imgUrl: '//img12.360buyimg.com/focus/s140x140_jfs/t12304/245/965858782/6481/37cb5a9b/5a17ba5aN0406a1b5.jpg'
+                            imgUrl: 'https://img13.360buyimg.com/n7/jfs/t1/8927/26/9656/128341/5c19b131E2cc53586/357c19d547d2d22f.jpg'
                         },
                         {
                             title: '组装电脑',
-                            imgUrl: '//img10.360buyimg.com/focus/s140x140_jfs/t14101/325/978287093/8836/e142aa53/5a17ba73N07b12f0c.jpg'
+                            imgUrl: 'https://img12.360buyimg.com/n7/jfs/t1/9490/4/8218/188108/5c0a4c73E0f77af96/3d579ab460eaf0d5.jpg'
                         },
                         {
                             title: '移动硬盘',
-                            imgUrl: '//img12.360buyimg.com/focus/s140x140_jfs/t13228/333/989759736/4764/2a312c2e/5a17ba7fN0740c051.jpg'
+                            imgUrl: 'https://img10.360buyimg.com/n7/jfs/t1/23766/21/5447/136671/5c3ec54eE51f105b2/30a896f19cf46dd2.jpg'
                         },
                         {
                             title: '曲屏显示器',
-                            imgUrl: '//img30.360buyimg.com/focus/s140x140_jfs/t13798/322/988648789/3644/1adc5615/5a17ba6dNafc95373.jpg'
+                            imgUrl: 'https://img11.360buyimg.com/n7/jfs/t1/76318/27/4353/355572/5d284effEa4e0f452/66c3ab4a976f6258.jpg'
                         }
                     ]
                 },
@@ -349,23 +349,23 @@ let categoryData = {
                     productList: [
                         {
                             title: '鼠标',
-                            imgUrl: '//img20.360buyimg.com/focus/s140x140_jfs/t11881/31/2355374158/3676/22da94de/5a16a5f0Nc6b32dda.jpg'
+                            imgUrl: 'https://img10.360buyimg.com/n7/jfs/t25498/266/296141314/154580/f4422dab/5b6acf31N9a0a1b6f.jpg'
                         },
                         {
                             title: 'U盘',
-                            imgUrl: '//img20.360buyimg.com/focus/s140x140_jfs/t12112/355/904591745/4308/6201dffe/5a16a5aaNdac2fe89.jpg'
+                            imgUrl: 'https://img14.360buyimg.com/n7/jfs/t1/80657/8/1677/92231/5d0099d0E0a8eecbc/b5515fa4621a9664.jpg'
                         },
                         {
                             title: '插座',
-                            imgUrl: '//img14.360buyimg.com/focus/s140x140_jfs/t12031/206/932335399/3567/d6d59ad9/5a16a578N283a0f75.jpg'
+                            imgUrl: 'https://img13.360buyimg.com/n7/jfs/t1/29063/13/2812/226686/5c209d33Ea712c97f/e4ded7710c8ebbe3.jpg'
                         },
                         {
                             title: '电脑工具',
-                            imgUrl: '//img11.360buyimg.com/focus/s140x140_jfs/t12292/173/915309013/5554/78f4ab5e/5a16a560Nc7626d33.jpg'
+                            imgUrl: 'https://img13.360buyimg.com/n7/jfs/t19795/176/770230415/357368/75bf9ad1/5b0bae1cN5b5a6e4c.jpg'
                         },
                         {
                             title: '摄像头',
-                            imgUrl: '//img20.360buyimg.com/focus/s140x140_jfs/t12499/54/910206832/5998/f91002f8/5a16a588Nff477d9d.jpg'
+                            imgUrl: 'https://img13.360buyimg.com/n7/jfs/t1/59388/22/550/117771/5cebb3daE229cd128/601f8c869e9633b3.jpg'
                         },
                         {
                             title: '手写板',
@@ -377,7 +377,7 @@ let categoryData = {
         },
         {
             name: '家用电器',
-            mainImgUrl: '',
+            mainImgUrl: 'https://img12.360buyimg.com/cms/jfs/t1/65780/29/3219/750162/5d16d317E3240eaab/b338941d2216d08d.jpg',
             list: [
                 {
                     title: '家用电器',
@@ -424,7 +424,7 @@ let categoryData = {
         },
         {
             name: '美妆护肤',
-            mainImgUrl: '',
+            mainImgUrl: 'https://img13.360buyimg.com/cms/jfs/t1/19459/37/12282/516812/5c95efaeEe97bc216/cb0d6fa11a580cf3.jpg',
             list: [
                 {
                     title: '美妆护肤',
@@ -447,7 +447,7 @@ let categoryData = {
         },
         {
             name: '男装男鞋',
-            mainImgUrl: '',
+            mainImgUrl: 'https://img10.360buyimg.com/cms/jfs/t1/12261/34/11816/513452/5c9350dfEf165db8b/8178eae66f53bac9.jpg',
             list: [
                 {
                     title: '男装男鞋',
@@ -470,7 +470,7 @@ let categoryData = {
         },
         {
             name: '女装女鞋',
-            mainImgUrl: '',
+            mainImgUrl: 'https://img14.360buyimg.com/cms/jfs/t1/37312/40/5672/166119/5cc0080eEb4b3a385/8236638adb4cd18b.jpg',
             list: [
                 {
                     title: '家用电器',
@@ -493,7 +493,7 @@ let categoryData = {
         },
         {
             name: '母婴童装',
-            mainImgUrl: '',
+            mainImgUrl: 'https://img10.360buyimg.com/imgzone/jfs/t1/80972/8/1077/624815/5cf4ef89Efcf12dec/2aff29afd6e772b4.jpg',
             list: [
                 {
                     title: '母婴童装',
@@ -508,7 +508,7 @@ let categoryData = {
         },
         {
             name: '图书音像',
-            mainImgUrl: '',
+            mainImgUrl: 'https://img13.360buyimg.com/da/jfs/t1/57644/6/5613/100862/5d35189bEf11a0dfb/f2b9d43e9d74a6a5.jpg!q80.webp',
             list: [
                 {
                     title: '图书音像',
@@ -527,7 +527,7 @@ let categoryData = {
         },
         {
             name: '户外运动',
-            mainImgUrl: '',
+            mainImgUrl: 'https://img12.360buyimg.com/cms/jfs/t1/12232/11/2004/792545/5c170affE3d9df2be/bbbeef7559fa3f2a.jpg',
             list: [
                 {
                     title: '户外运动',
@@ -546,7 +546,7 @@ let categoryData = {
         },
         {
             name: '食品生鲜',
-            mainImgUrl: '',
+            mainImgUrl: 'https://img12.360buyimg.com/cms/jfs/t1/33405/21/14045/303654/5d0b43bcE451832fb/e42687b8ffb52aa5.jpg',
             list: [
                 {
                     title: '家用电器',
@@ -565,7 +565,7 @@ let categoryData = {
         },
         {
             name: '酒水饮料',
-            mainImgUrl: '',
+            mainImgUrl: 'https://img10.360buyimg.com/cms/jfs/t1/67063/8/3290/453338/5d196a17Ebce2d78b/a25a37903bf87a64.jpg',
             list: [
                 {
                     title: '酒水饮料',
@@ -580,7 +580,7 @@ let categoryData = {
         },
         {
             name: '家居家装',
-            mainImgUrl: '',
+            mainImgUrl: 'https://img13.360buyimg.com/cms/jfs/t1/43560/2/9601/141965/5d328b05Ec746cd8c/9732d2bf6c5cc007.jpg',
             list: [
                 {
                     title: '家居家装',
@@ -599,7 +599,7 @@ let categoryData = {
         },
         {
             name: '箱包手袋',
-            mainImgUrl: '',
+            mainImgUrl: 'https://img10.360buyimg.com/cms/jfs/t1/42527/30/9517/618141/5d2d95b1E555b7005/b5d598bf6a4054e3.jpg',
             list: [
                 {
                     title: '箱包手袋',
@@ -614,7 +614,7 @@ let categoryData = {
         },
         {
             name: '钟表珠宝',
-            mainImgUrl: '',
+            mainImgUrl: 'https://img14.360buyimg.com/cms/jfs/t1/36432/9/15296/417748/5d31a619E4648de40/af5db7c5c778319d.jpg',
             list: [
                 {
                     title: '钟表珠宝',
@@ -629,7 +629,7 @@ let categoryData = {
         },
         {
             name: '玩具乐器',
-            mainImgUrl: '',
+            mainImgUrl: 'https://img12.360buyimg.com/cms/jfs/t1/39251/16/11151/390315/5d281804Ef12a9823/e88bab5f332a2a62.jpg',
             list: [
                 {
                     title: '家用电器',
