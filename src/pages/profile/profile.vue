@@ -24,7 +24,7 @@
           <span>修改个人信息</span>
           <i class="iconfont icon-552cc1babd9aa"></i>
         </router-link>
-        <router-link tag="div" to="./shipping" class="profile-item">
+        <router-link tag="div" to="./shopping" class="profile-item">
           <span>收货地址管理</span>
           <i class="iconfont icon-552cc1babd9aa"></i>
         </router-link>

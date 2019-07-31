@@ -6,7 +6,8 @@ import getters from './getter'
 Vue.use(Vuex);
 const state = {
   inLogin:0,
-  searchHistory:[]
+  searchHistory:[],
+  shippingId:0
 }
 export default new Vuex.Store({
   state,

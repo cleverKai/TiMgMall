@@ -95,6 +95,89 @@ export const updateInfo = (params) => $http('/api/user/update_information.do', {
   question: params.question,
   answer: params.answer
 });
+// 获取收货地址
+export const addressList = (pageNum, pageSize) => $http('/api/shipping/list.do', {
+  pageNum,
+  pageSize
+});
+// 添加地址的接口
+export const addAddress = (params) => $http('/api/shipping/add.do', {
+  userId: params.userId,
+  receiverName: params.receiverName,
+  receiverPhone: params.receiverPhone,
+  receiverMobile: params.receiverMobile,
+  receiverProvince: params.receiverProvince,
+  receiverCity: params.receiverCity,
+  receiverAddress: params.receiverAddress,
+  receiverZip: params.receiverZip,
+});
+/**
+ * 更新地址
+ */
+export const updateAddress = (params) => $http('/api/shipping/update.do', {
+  id: params.id,
+  receiverName: params.receiverName,
+  receiverPhone: params.receiverPhone,
+  receiverMobile: params.receiverMobile,
+  receiverProvince: params.receiverProvince,
+  receiverCity: params.receiverCity,
+  receiverAddress: params.receiverAddress,
+  receiverZip: params.receiverZip,
+});
+/**
+ * 购物车列表 h
+ */
+export const cartList = () => $http('/api/cart/list.do');
+/**
+ * 购物车选中某个商品
+ */
+export const selectProduct = (productId) => $http('/api/cart/select.do', {
+  productId
+});
+
+/**
+ * 购物车取消选中某个商品
+ */
+export const unSelectProduct = (productId) => $http('/api/cart/un_select.do', {
+  productId
+});
+
+/**
+ * 购物车全选
+ */
+export const selectAll = () => $http('/api/cart/select_all.do');
+
+/**
+ * 购物车取消全选
+ */
+export const unSelectAll = () => $http('/api/cart/un_select_all.do');
+/**
+ * 移除购物车若干商品
+ */
+export const deleteProduct = (productIds) => $http('/api/cart/delete_product.do', {
+  productIds
+});
+/**
+ * 更新购物车数量
+ */
+export const updateCartCount = (productId, count) => $http('/api/cart/update.do', {
+  productId,
+  count
+});
+/**
+ * 购物车数量
+ */
+export const cartCount = () => $http('/api/cart/get_cart_product_count.do');
+
+/**
+ * 购物车添加商品 h
+ */
+export const addCart = (productId, count) => $http('/api/cart/add.do', {
+  productId,
+  count
+});
+
+
 
 
 

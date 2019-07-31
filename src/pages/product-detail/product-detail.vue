@@ -117,7 +117,8 @@
 <script>
    import Swiper from 'swiper'
    import 'swiper/dist/css/swiper.min.css'
-   import {productDetail} from "../../service/getData";
+   // import {productDetail} from "../../service/getData";
+   import {productDetail, cartCount, addCart} from "../../service/getData";
    import slider from  './../../components/common/slider'
    export default {
         name: "product-detail",
@@ -181,9 +182,26 @@
              })
            })
         },
+        //加入购物车
+        async confirmCart(){
+          await addCart(this.productData.id,this.productCount).then((res)=>{
+            // do nothing
+          })
+          this.getCartCount()
+          this.closeCart()
+        },
+
+        getCartCount() {
+          cartCount().then((res) => {
+            // console.log(res)
+            this.cartCount = res.data
+          })
+        },
+
       },
       created(){
           this.getDetail()
+          this.getCartCount()
       },
       mounted() {
           this.slider = new Swiper('.swiper-container',{

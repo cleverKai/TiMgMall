@@ -14,6 +14,7 @@ import forgetpassword from './../pages/forget-password/forget-password'
 import profile from './../pages/profile/profile'
 import updatepassword from './../pages/update-password/update-password'
 import updateinfo from './../pages/update-info/update-info'
+import shopping from './../pages/shopping/shopping'
 // import product
 // import Swiper from 'swiper'
 // import 'swiper/dist/css/swiper.min.css'
@@ -104,6 +105,11 @@ export default new Router({
     {
       path:'/update-info',
       component:updateinfo
+    },
+    {
+      path:'/shopping',
+      component:shopping
     }
+
   ],
 })
