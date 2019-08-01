@@ -44,7 +44,7 @@
     <div v-show="!isLoading">
         <div class="user-fork">
           <router-link tag="div" to="./profile-product?type=0" class="fork-item">
-            <i>{{followCount}}</i>
+            <i>{{ followCount}}</i>
             <span>关注的商品</span>
           </router-link>
           <div class="fork-item">
@@ -74,6 +74,7 @@
   import {dedupeObject, getStore} from "../../common/js/util";
   import {checkLogin, productListKeyword} from "../../service/getData";
   import navBar from './../../components/navBar'
+  import {mapState, mapMutations} from 'vuex'
     export default {
         name: "user",
       data(){
@@ -83,7 +84,7 @@
             userInfo: {},
             // isLoading: true ,
             isLoading:true,
-            followCount:0
+            followCount: 0 ,
           }
       },
       components:{
@@ -103,17 +104,26 @@
         this.getRecommendList()
       },
       mounted() {
+        this.followCount = this.followList.length
         this.$nextTick(()=>{
           setTimeout(()=>{
             this.isLoading = false
           },500)
         })
       },
+      computed: {
+        ...mapState({
+          followList: state => state.followList
+        })
+      },
       methods:{
           goBack(){
             this.$router.go(-1)
           },
-
+        ...mapMutations([
+          'ADD_FOLLOW',
+          'REDUCE_FOLLOW'
+        ]),
         getRecommendList() {
           let params = {
             keyword: '1',

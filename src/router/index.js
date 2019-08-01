@@ -18,6 +18,8 @@ import shopping from './../pages/shopping/shopping'
 import order from './../pages/order/order'
 import payment from './../pages/payment/payment'
 import orderlist from './../pages/order-list/order-list'
+import orderdetail from './../pages/order-detail/order-detail'
+import profileproduct from './../pages/profile-product/profile-product'
 // import product
 // import Swiper from 'swiper'
 // import 'swiper/dist/css/swiper.min.css'
@@ -124,6 +126,14 @@ export default new Router({
     {
       path:'/order-list',
       component:orderlist
+    },
+    {
+      path:'/order-detail',
+      component:orderdetail
+    },
+    {
+      path:'/profile-product',
+      component:profileproduct
     }
 
   ],

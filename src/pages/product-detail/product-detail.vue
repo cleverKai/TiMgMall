@@ -46,7 +46,8 @@
           <div class="detail-cart">
              <div class="detail-cart-left">
                 <div class="like" >
-                  <i class="iconfont icon-like"></i>
+                  <i  @click="lightLove" v-if="!isLoved" class="iconfont icon-custom-love"></i>
+                  <i  @click="cancelLove" v-else  class="iconfont icon-like "></i>
                   <span>喜欢</span>
                 </div>
                <router-link tag="div" to="/shopcart" class="cart">
@@ -101,13 +102,15 @@
 <script>
    import Swiper from 'swiper'
    import 'swiper/dist/css/swiper.min.css'
-   // import {productDetail} from "../../service/getData";
    import {productDetail, cartCount, addCart} from "../../service/getData";
    import slider from  './../../components/common/slider'
+   import user from '../user/user'
+   import {mapState, mapMutations} from 'vuex'
    export default {
         name: "product-detail",
        components:{
-          slider
+          slider,
+          user
        },
         data(){
           return{
@@ -117,6 +120,7 @@
             productData:{},
             subImageList:[],
             cartCount:0,
+            isLoved: false,
           }
         },
       methods:{
@@ -181,6 +185,21 @@
             this.cartCount = res.data
           })
         },
+        //喜欢
+        lightLove() {
+          this.isLoved = true
+          this.followList.unshift(this.productData)
+          this.ADD_FOLLOW(this.followList)
+        },
+//取消喜欢
+        cancelLove() {
+          this.isLoved = false
+          this.REDUCE_FOLLOW('reduce', this.productData.id)
+        },
+        ...mapMutations([
+          'ADD_FOLLOW',
+          'REDUCE_FOLLOW'
+        ]),
 
       },
       created(){
@@ -198,6 +217,11 @@
             }
           })
       },
+     computed: {
+       ...mapState({
+         followList: state => state.followList
+       })
+     },
     }
 </script>
 

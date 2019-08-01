@@ -183,6 +183,19 @@ export const orderList = (pageSize, pageNum) => $http('/api/order/list.do', {
   pageSize,
   pageNum
 });
+/**
+ * 获取订单详情
+ */
+export const orderDetail = (orderNo) => $http('/api/order/detail.do', {
+  orderNo
+});
+
+/**
+ * 取消订单
+ */
+export const cancelOrder = (orderNo) => $http('/api/order/cancel.do', {
+  orderNo
+});
 
 
 

@@ -6,6 +6,7 @@ import getters from './getter'
 Vue.use(Vuex);
 const state = {
   inLogin:0,
+  followList:[],
   searchHistory:[],
   shippingId:0
 }
