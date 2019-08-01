@@ -176,6 +176,13 @@ export const addCart = (productId, count) => $http('/api/cart/add.do', {
   productId,
   count
 });
+/**
+ * 获取订单列表
+ */
+export const orderList = (pageSize, pageNum) => $http('/api/order/list.do', {
+  pageSize,
+  pageNum
+});
 
 
 

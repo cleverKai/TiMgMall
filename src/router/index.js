@@ -15,6 +15,9 @@ import profile from './../pages/profile/profile'
 import updatepassword from './../pages/update-password/update-password'
 import updateinfo from './../pages/update-info/update-info'
 import shopping from './../pages/shopping/shopping'
+import order from './../pages/order/order'
+import payment from './../pages/payment/payment'
+import orderlist from './../pages/order-list/order-list'
 // import product
 // import Swiper from 'swiper'
 // import 'swiper/dist/css/swiper.min.css'
@@ -109,6 +112,18 @@ export default new Router({
     {
       path:'/shopping',
       component:shopping
+    },
+    {
+      path:'/order',
+      component:order
+    },
+    {
+      path:'/payment',
+      component:payment
+    },
+    {
+      path:'/order-list',
+      component:orderlist
     }
 
   ],

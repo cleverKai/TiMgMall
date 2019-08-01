@@ -18,22 +18,6 @@
              </div>
              <i class="iconfont icon-more"></i>
            </header>
-
-<!--&lt;!&ndash;         轮播图&ndash;&gt;-->
-<!--          <div class="swiper-container">-->
-<!--             <div class="swiper-wrapper">-->
-<!--                <div class="swiper-slide">-->
-<!--                  <img src="./imgs/rowing/s1.png"class="swiper_img" ref="slideImg" alt="">-->
-<!--                </div>-->
-<!--               <div class="swiper-slide">-->
-<!--                 <img src="./imgs/rowing/s2.png"class="swiper_img" ref="slideImg" alt="">-->
-<!--               </div>-->
-<!--               <div class="swiper-slide">-->
-<!--                 <img src="./imgs/rowing/s3.png"class="swiper_img" ref="slideImg" alt="">-->
-<!--               </div>-->
-<!--             </div>-->
-<!--            <div class="swiper-pagination"></div>-->
-<!--          </div>-->
         <section class="product-focus">
           <slider :imgUrl="subImageList" :imgHeight="700" class="detail-slider">
           </slider>
