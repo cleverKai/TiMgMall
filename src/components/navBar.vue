@@ -35,7 +35,10 @@
     position: fixed;
     left: 0;
     bottom: 0;
+<<<<<<< HEAD
     height: 75px;
+=======
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
     width: 100%;
     padding: 10px 0;
     z-index: 1000;

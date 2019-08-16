@@ -264,9 +264,12 @@
          }
        }
      }
+<<<<<<< HEAD
      .product-focus{
        margin-top:88px;
      }
+=======
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
      .swiper-slide img{
        height: 700px;
      }

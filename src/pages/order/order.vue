@@ -266,10 +266,17 @@
             max-height: 80px;
             font-size: 30px;
             font-weight: bold;
+<<<<<<< HEAD
             margin-bottom: 20px;
           }
           .subtitle{
             padding: 40px 0;
+=======
+            overflow: hidden;
+          }
+          .subtitle{
+            padding: 8px 0;
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
             color: #999;
           }
           div{

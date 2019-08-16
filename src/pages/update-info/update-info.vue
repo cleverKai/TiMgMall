@@ -28,14 +28,22 @@
           <i class="iconfont icon-552cc1babd9aa"></i>
         </div>
       </div>
+<<<<<<< HEAD
       <div class="user-item" data-type="question" data-title="密保" @click="showWrap">
+=======
+      <div class="user-item" data-type="phone" data-title="密保" @click="showWrap">
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
         <span>密保：</span>
         <div>
           <span>{{ userInfo.question }}</span>
           <i class="iconfont icon-552cc1babd9aa"></i>
         </div>
       </div>
+<<<<<<< HEAD
       <div class="user-item" data-type="answer" data-title="密保答案" @click="showWrap">
+=======
+      <div class="user-item" data-type="phone" data-title="密保答案" @click="showWrap">
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
         <span>密保答案：</span>
         <div>
           <span>{{ userInfo.answer }}</span>
@@ -80,13 +88,20 @@
         init(){
           getUserInfo().then((res)=>{
             this.userInfo = res.data
+<<<<<<< HEAD
             console.log( this.userInfo)
+=======
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
           })
         },
 //展示
         showWrap(e){
           let $title = e.currentTarget.getAttribute('data-title'),
+<<<<<<< HEAD
           $type = e.currentTarget.getAttribute('data-type')
+=======
+            $type = e.currentTarget.getAttribute('data-type')
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
           this.updateWrap = true
           this.updateType = $type
           this.updateTitle = $title

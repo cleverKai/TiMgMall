@@ -14,6 +14,10 @@
             <span class="phone" v-text="item.receiverMobile"></span>
           </div>
           <p class="shipping-address">{{ item.receiverProvince }}  {{ item.receiverCity }}<i class="iconfont icon-552cc1babd9aa"></i></p>
+<<<<<<< HEAD
+=======
+
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
           <p class="shipping-address">{{ item.receiverAddress }} <i class="iconfont icon-552cc1babd9aa"></i></p>
         </div>
         <div class="shipping-bottom">
@@ -102,7 +106,13 @@
                   <div class="picker-item" v-if="selectIndex === 0">
                     <list-scroll :scroll-data="areaData">
                       <div class="provinceList">
+<<<<<<< HEAD
                         <span v-for="(item,index) in areaData" :class="{'active' : provinceIndex === index}" @click="selectProvince(index)" >
+=======
+                        <span v-for="(item,index) in areaData"
+                              :class="{'active' : provinceIndex === index}"
+                              @click="selectProvince(index)">
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
                             <i class="iconfont icon-right" v-if="provinceIndex === index"></i>
                             {{item.value}}
                         </span>
@@ -114,7 +124,11 @@
                       <div class="cityList">
                         <span v-for="(item,index) in cityList"
                               :class="{'active' : cityIndex === index}"
+<<<<<<< HEAD
                               @click="selectCity(index)" >
+=======
+                              @click="selectCity(index)">
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
                             <i class="iconfont icon-right" v-if="cityIndex === index"></i>
                             {{item.value}}
                         </span>
@@ -126,7 +140,11 @@
                       <div class=" areaList">
                         <span v-for="(item,index) in areaList"
                               :class="{'active' : areaIndex === index}"
+<<<<<<< HEAD
                               @click="selectArea(index)" >
+=======
+                              @click="selectArea(index)">
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
                             <i class="iconfont icon-right" v-if="areaIndex === index"></i>
                             {{item.value}}
                         </span>
@@ -479,6 +497,11 @@
             .phone{
               margin-right: 0.8rem;
             }
+<<<<<<< HEAD
+=======
+            span:first-child{
+            }
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
           }
           p{
             padding: 20px 0;
@@ -605,10 +628,13 @@
           line-height: 90px;
           @include border-1px(#e8e8e8);
           box-sizing: border-box;
+<<<<<<< HEAD
           margin-left: 0.266667rem;
           span{
             font-size: 0.4rem;
           }
+=======
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
           &.detail{
             padding: 30px 0;
             box-sizing: content-box;

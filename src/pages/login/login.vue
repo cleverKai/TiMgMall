@@ -8,7 +8,11 @@
       <div class="login-page">
          <div class="login-wrap">
            <div class="logo">
+<<<<<<< HEAD
              <img src="../../assets/logo.png" alt="">
+=======
+             <img src="../../assets/logo2.png" alt="">
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
            </div>
            <div class="login-text">
               <i class="iconfont icon-shouji1"></i>
@@ -38,9 +42,15 @@
         </div>
         <div class="other-login">
           <div class="other-header">
+<<<<<<< HEAD
             <i class="left"></i>
             <span>其他登录方式</span>
             <i class="right"></i>
+=======
+            <i></i>
+            <span>其他登录方式</span>
+            <i></i>
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
           </div>
           <div class="other-con">
             <div class="login-icon">
@@ -60,7 +70,11 @@
               <span>支付宝</span>
             </div>
           </div>
+<<<<<<< HEAD
           <p>登录即代表您已同意TiMgMall隐私政策</p>
+=======
+          <p>登录即代表您已同意***隐私政策</p>
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
         </div>
       </div>
     </div>
@@ -119,7 +133,10 @@
               return
             }
             userLogin(this.username,this.password).then((res) =>{
+<<<<<<< HEAD
               //console.log(res);
+=======
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
               this.errMsg = ''
               this.$router.push('./user')
             })
@@ -152,8 +169,13 @@
     .login-wrap{
       width: 100%;
       .logo{
+<<<<<<< HEAD
         width: 4.5rem;
         height: 3rem;
+=======
+        width: 6.5rem;
+        height: 3.5rem;
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
         margin: 0 auto;
         img{
           width: 100%;
@@ -173,7 +195,11 @@
           font-size: 0.5rem;
           color: #cccccc;
           /*vertical-align: middle;*/
+<<<<<<< HEAD
           margin-top: -1px;
+=======
+          margin-top: 6px;
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
           &.eye{
             padding: 0 30px;
             font-size: 40px;
@@ -235,6 +261,7 @@
       width: 100%;
       margin-top: 100px;
       .other-header{
+<<<<<<< HEAD
         position: relative;
         span{
           width: 2.5rem;
@@ -268,6 +295,14 @@
           border-bottom: 1px solid #999;
           font-size: 28px;
           width: 25%;
+=======
+        @include fj;
+        i{
+          flex: 1;
+          text-align: center;
+          font-size: 28px;
+          color: #dcdcdc;
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
         }
       }
       .other-con{

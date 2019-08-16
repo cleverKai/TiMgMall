@@ -43,7 +43,12 @@ export default new Router({
     // },
     {
       path:'/',
+<<<<<<< HEAD
       redirect:'/home'
+=======
+      name: 'home',
+      component:home
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
     },
     {
       path:'/home',
@@ -136,5 +141,8 @@ export default new Router({
     }
 
   ],
+<<<<<<< HEAD
   mode:'history'
+=======
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
 })

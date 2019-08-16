@@ -104,6 +104,7 @@
                  <p>智能家电</p>
                  <p>家电狂欢 精彩有你</p>
                  <div class="floor-products">
+<<<<<<< HEAD
                    <img src="./imgs/floor_pros/jiadian1.jpg" alt="">
                    <img src="./imgs/floor_pros/jiadian2.jpg" alt="">
                  </div>
@@ -164,13 +165,19 @@
                  <p>智能家电</p>
                  <p>家电狂欢 精彩有你</p>
                  <div class="floor-products">
+=======
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
                    <img src="./imgs/floor_pros/f1.jpg" alt="">
                    <img src="./imgs/floor_pros/f2.jpg" alt="">
                  </div>
                </div>
 
                <div class="floor-category">
+<<<<<<< HEAD
                  <p>智能手机</p>
+=======
+                 <p>经典手表</p>
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
                  <p>为爱倾注时间</p>
                  <div class="floor-products">
                    <img src="./imgs/floor_pros/f3.jpg" alt="">
@@ -188,19 +195,30 @@
                  </div>
                </div>
                <div class="floor-category">
+<<<<<<< HEAD
                  <p>超清电视</p>
                  <p>为爱倾注时间</p>
                  <div class="floor-products">
                    <img src="http://gfs9.gomein.net.cn/wireless/T1yL__BjD_1RCvBVdK_355_144.jpg" alt="">
+=======
+                 <p>经典手表</p>
+                 <p>为爱倾注时间</p>
+                 <div class="floor-products">
+                   <img src="./imgs/floor_pros/f11.jpg" alt="">
+                   <img src="./imgs/floor_pros/f12.jpg" alt="">
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
                  </div>
                </div>
              </div>
           </div>
         </div>
+<<<<<<< HEAD
 
 
 
         
+=======
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
         <navBar></navBar>
       
     </div>

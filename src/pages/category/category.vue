@@ -1,6 +1,10 @@
 <template>
   <div>
+<<<<<<< HEAD
     <navBar ref="this.recommendList"></navBar>
+=======
+    <navBar></navBar>
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
     <header class="category-header wrap">
       <i class="iconfont icon-back" @click="goHome"></i>
       <div class="header-search">
@@ -79,8 +83,12 @@
         //动态设置search-wrap的高
         setSearchWrapHeight(){
           let $screenHeight = document.documentElement.clientHeight
+<<<<<<< HEAD
          this.$refs.searchWrap.style.height  = $screenHeight +"px"; 
            
+=======
+          this.$refs.searchWrap.style.height = $screenHeight +"px"
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
         },
         // 设置左侧菜单和右侧区域联动
         selectMenu($index){
@@ -143,7 +151,10 @@
   .search-wrap{
     @include fj;
     width: 100%;
+<<<<<<< HEAD
     margin-bottom: 46px;
+=======
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
     margin-top: 100px;
     background-color: #EEE;
     border-top: 1px solid #999;
@@ -173,7 +184,11 @@
   }
   .search-content {
     width: 72%;
+<<<<<<< HEAD
     height: 100%;
+=======
+    /*height: 100%;*/
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
     padding: 0 20px;
     background: #fff;
     @include boxSizing;

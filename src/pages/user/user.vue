@@ -133,7 +133,10 @@
           }
           productListKeyword(params).then((res) => {
             this.recommendList = res.data.list
+<<<<<<< HEAD
             console.log(this.recommendList)
+=======
+>>>>>>> aa3c9ba6a7d55a6c9b32bd97800443374dd50cec
           })
         },
         productDetail(index) {
